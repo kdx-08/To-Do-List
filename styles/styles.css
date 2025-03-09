@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    font-size: 1rem;
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.todo-header,
+.todo-content {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.todo-header {
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+
+#todo-item,
+#todo-date {
+    font-size: 1rem;
+    padding: 6px;
+    outline: none;
+}
+
+#add-button {
+    font-size: 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#delete-button {
+    font-size: 1rem;
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
